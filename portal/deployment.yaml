@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: portal
-        image: docker.io/lyft/flyte:portal
+        image: docker.io/lyft/flytesnacks:portal
         command:
           - sleep
           - infinity
